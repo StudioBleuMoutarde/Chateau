@@ -13,18 +13,42 @@ body {
   align-items: center;
   width: 100%;
 }
-
 .hero > img {
   height: 520px;
   width: 100%;
   object-fit: cover;
 }
-
 .hero > p {
   position: absolute;
   color: white;
   font-size: 36px;
   margin: 0px;
+}
+
+.introduction {
+  padding: 2rem 13rem 2rem 13rem;
+}
+.introduction > h3 {
+  text-align: center;
+}
+.introduction > p {
+  text-align: center;
+}
+
+.reservation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: #f0eae7;
+}
+.reservation > button {
+  padding: 1.25rem 2.25rem;
+  background-color: aqua;
+  border: 0px;
+  border-radius: 4px;
+  font-size: 22px;
+  cursor: pointer;
 }
 
 .events > div > img {
