@@ -51,7 +51,40 @@ body {
   cursor: pointer;
 }
 
+.events {
+  padding: 2rem 13rem 2rem 13rem;
+}
+.events > h3 {
+  text-align: center;
+}
+.events > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem 0px;
+}
 .events > div > img {
-  height: 150px;
-  width: 150px;
+  height: 15vw;
+  width: 15vw;
+}
+.events > div > p {
+  margin: 0px;
+  padding: 0px 2rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.75rem 13rem 0.75rem 13rem;
+  background-color: #121212;
+}
+.footer > p {
+  margin: 0px;
+  color: white;
+}
+.footer > a {
+  color: white;
+  cursor: pointer;
 }
