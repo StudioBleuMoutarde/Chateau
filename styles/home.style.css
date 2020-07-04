@@ -1,4 +1,33 @@
+body {
+  margin: 0;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .hero > img {
-  height: 50px;
-  width: 50px;
+  height: 520px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero > p {
+  position: absolute;
+  color: white;
+  font-size: 36px;
+  margin: 0px;
+}
+
+.events > div > img {
+  height: 150px;
+  width: 150px;
 }
