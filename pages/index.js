@@ -4,7 +4,13 @@ const Home = () => {
       <section className="hero">
         <img src="https://images.unsplash.com/photo-1519074069444-1ba4fff66d16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80" />
 
-        <p>Oserez-vous pénétrez dans le chateau ?</p>
+        <div>
+          <p>Château de Suscinio</p>
+
+          <div className="separator"></div>
+
+          <p>Oserez-vous pénétrez dans le château ?</p>
+        </div>
       </section>
 
       <section className="introduction">
