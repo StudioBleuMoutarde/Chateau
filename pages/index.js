@@ -22,7 +22,9 @@ const Home = () => {
       </section>
 
       <section className="events">
-        <h3>Nos énigmes</h3>
+        <h2>Nos énigmes</h2>
+
+        <div className="separator"></div>
 
         <div>
           <img src="https://images.unsplash.com/photo-1568664190428-0817708dbc99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80" />

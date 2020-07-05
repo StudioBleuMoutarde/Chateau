@@ -47,6 +47,7 @@ body {
   color: #373737;
   font-size: 28px;
   font-family: 'Montserrat-SemiBold';
+  text-transform: uppercase;
 }
 .introduction > .separator {
   align-self: center;
@@ -81,25 +82,43 @@ body {
 }
 
 .events {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 2rem 13rem 2rem 13rem;
 }
-.events > h3 {
+.events > h2 {
   text-align: center;
+  color: #373737;
+  font-size: 28px;
+  font-family: 'Montserrat-SemiBold';
+  text-transform: uppercase;
+}
+.events > .separator {
+  align-self: center;
+  height: 4px;
+  width: 25%;
+  margin: 0px 0px 2rem 0px;
+  background-color: #373737;
 }
 .events > div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin: 5rem 0px;
 }
 .events > div > img {
-  height: 15vw;
-  width: 15vw;
+  height: 22vw;
+  width: 22vw;
+  object-fit: cover;
 }
 .events > div > p {
   margin: 0px;
   padding: 0px 2rem;
+  font-size: 16px;
+  font-family: 'Montserrat-Regular';
 }
 
 .footer {
