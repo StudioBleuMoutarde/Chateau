@@ -6,15 +6,13 @@ const Home = () => {
 
         <div>
           <p>Château de Suscinio</p>
-
-          <div className="separator"></div>
-
-          <p>Oserez-vous pénétrez dans le château ?</p>
         </div>
       </section>
 
       <section className="introduction">
-        <h3>Forteresse sanglante de Chinon</h3>
+        <h2>Oserez-vous pénétrez dans le château ?</h2>
+
+        <div className="separator"></div>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </section>

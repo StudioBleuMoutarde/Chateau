@@ -27,30 +27,38 @@ body {
   position: absolute;
   padding: 1.25rem 2rem;
   background-color: #ff933c;
-  color: white;
 }
 .hero > div > p {
   font-size: 36px;
   margin: 0px;
+  color: white;
   font-family: 'Montserrat-Black';
-}
-.hero > div > .separator {
-  height: 4px;
-  width: 37%;
-  margin: 0.75rem 0px 2rem 0px;
-  background-color: white;
-}
-.hero > div > p:nth-child(3) {
-  width: 80%;
-  font-size: 24px;
-  font-family: 'Montserrat-Regular';
 }
 
 .introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 2rem 13rem 2rem 13rem;
 }
-.introduction > h3, p {
+.introduction > h2 {
   text-align: center;
+  color: #373737;
+  font-size: 28px;
+  font-family: 'Montserrat-SemiBold';
+}
+.introduction > .separator {
+  align-self: center;
+  height: 4px;
+  width: 25%;
+  margin: 0px 0px 2rem 0px;
+  background-color: #373737;
+}
+.introduction > p {
+  text-align: center;
+  color: #373737;
+  font-size: 16px;
   font-family: 'Montserrat-Regular';
 }
 
