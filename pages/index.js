@@ -18,7 +18,7 @@ const Home = () => {
       </section>
 
       <section className="reservation">
-        <button>Réserver</button>
+        <button>Réserver un créneau</button>
       </section>
 
       <section className="events">
@@ -38,7 +38,7 @@ const Home = () => {
       </section>
 
       <section className="reservation">
-        <button>Réserver</button>
+        <button>Réserver un créneau</button>
       </section>
 
       <section className="footer">

@@ -66,16 +66,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
-  background-color: #f0eae7;
+  height: 33vh;
+  background-color: #fff0e4;
 }
 .reservation > button {
   padding: 1.25rem 2.25rem;
-  background-color: aqua;
+  background-color: #ffaf6f;
   border: 0px;
   border-radius: 4px;
   font-size: 22px;
   cursor: pointer;
+  color: white;
+  font-family: 'Montserrat-Regular';
 }
 
 .events {
