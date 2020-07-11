@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  color: #373737;
 }
 
 .container {
@@ -44,21 +45,27 @@ body {
 }
 .introduction > h2 {
   text-align: center;
-  color: #373737;
   font-size: 28px;
   font-family: 'Montserrat-SemiBold';
   text-transform: uppercase;
+  color: #ff933c;
 }
 .introduction > .separator {
   align-self: center;
-  height: 4px;
+  height: 8px;
   width: 25%;
   margin: 0px 0px 2rem 0px;
-  background-color: #373737;
+  background-color: #ff933c;
 }
 .introduction > p {
   text-align: center;
-  color: #373737;
+  font-size: 16px;
+  font-family: 'Montserrat-Regular';
+}
+.introduction-next {
+  margin: 0px;
+  padding: 2rem 13rem 2rem 13rem;
+  text-align: center;
   font-size: 16px;
   font-family: 'Montserrat-Regular';
 }
@@ -69,6 +76,12 @@ body {
   align-items: center;
   height: 33vh;
   background-color: #f2f2f2;
+}
+.reservation > h3 {
+  color: #ffaf6f;
+  font-size: 28px;
+  font-family: 'Montserrat-SemiBold';
+  text-transform: uppercase;
 }
 .reservation > button {
   padding: 1.25rem 2.25rem;
@@ -81,6 +94,24 @@ body {
   font-family: 'Montserrat-Regular';
 }
 
+.presentation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem 13rem 2rem 13rem;
+}
+.presentation > img {
+  width: 30vw;
+  height: auto;
+}
+.presentation > p {
+  margin: 0px;
+  padding: 0px 3rem;
+  font-size: 16px;
+  font-family: 'Montserrat-Regular';
+}
+
 .events {
   display: flex;
   flex-direction: column;
@@ -90,17 +121,17 @@ body {
 }
 .events > h2 {
   text-align: center;
-  color: #373737;
   font-size: 28px;
   font-family: 'Montserrat-SemiBold';
   text-transform: uppercase;
+  color: #ff933c;
 }
 .events > .separator {
   align-self: center;
-  height: 4px;
+  height: 8px;
   width: 25%;
   margin: 0px 0px 2rem 0px;
-  background-color: #373737;
+  background-color: #ff933c;
 }
 .events > div {
   display: flex;
@@ -124,13 +155,46 @@ body {
 .events > div > .text > h3 {
   margin: 0px;
   margin-bottom: 1.5rem;
+  color: #ffaf6f;
   font-family: 'Montserrat-SemiBold';
   font-size: 22px;
 }
 .events > div > .text > p {
   margin: 0px;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Montserrat-Regular';
+}
+.events > div > .text > button {
+  padding: 0.25rem 0.5rem;
+  background-color: #ffaf6f;
+  border: 0px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  font-family: 'Montserrat-Regular';
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 13rem 2rem 13rem;
+}
+.contact > h2 {
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Montserrat-SemiBold';
+  text-transform: uppercase;
+  color: #ff933c;
+}
+.contact > .separator {
+  align-self: center;
+  height: 8px;
+  width: 25%;
+  margin: 0px 0px 2rem 0px;
+  background-color: #ff933c;
 }
 
 .footer {
