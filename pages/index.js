@@ -2,19 +2,19 @@ const Home = () => {
   return (
     <div className="container">
       <section className="hero">
-        <img src="https://images.unsplash.com/photo-1519074069444-1ba4fff66d16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80" />
+        <img src="https://images.unsplash.com/photo-1526816229784-65d5d54ac8bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" />
 
         <div>
-          <p>Château de Suscinio</p>
+          <p>Domaine de Suscinio</p>
         </div>
       </section>
 
       <section className="introduction">
-        <h2>Oserez-vous pénétrez dans le château ?</h2>
+        <h2>Un château, des animations et une nature préservée</h2>
 
         <div className="separator"></div>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p>Patrimoine de Bretagne, le château de Suscinio est un incontournable du Golfe du Morbihan. Situé au milieu d'un parc naturel d'une richesse et d'une diversité d'activités rares, il propose une palette d'animations historiques unique... A quelques minutes à pieds de la plus belle plage.</p>
       </section>
 
       <section className="reservation">
