@@ -1,6 +1,7 @@
 body {
   margin: 0;
   color: #373737;
+  font-family: 'Montserrat-Regular';
 }
 
 .container {
@@ -60,18 +61,17 @@ body {
 .introduction > p {
   text-align: center;
   font-size: 16px;
-  font-family: 'Montserrat-Regular';
 }
 .introduction-next {
   margin: 0px;
   padding: 2rem 13rem 2rem 13rem;
   text-align: center;
   font-size: 16px;
-  font-family: 'Montserrat-Regular';
 }
 
 .reservation {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 33vh;
@@ -91,7 +91,13 @@ body {
   font-size: 22px;
   cursor: pointer;
   color: white;
-  font-family: 'Montserrat-Regular';
+}
+.reservation > .separator {
+  align-self: center;
+  height: 8px;
+  width: 25%;
+  margin: 0px 0px 2rem 0px;
+  background-color: #ff933c;
 }
 
 .presentation {
@@ -109,7 +115,6 @@ body {
   margin: 0px;
   padding: 0px 3rem;
   font-size: 16px;
-  font-family: 'Montserrat-Regular';
 }
 
 .events {
@@ -126,13 +131,6 @@ body {
   text-transform: uppercase;
   color: #ff933c;
 }
-.events > .separator {
-  align-self: center;
-  height: 8px;
-  width: 25%;
-  margin: 0px 0px 2rem 0px;
-  background-color: #ff933c;
-}
 .events > div {
   display: flex;
   flex-direction: row;
@@ -146,10 +144,6 @@ body {
   object-fit: cover;
 }
 .events > div > .text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
   padding: 0px 3rem;
 }
 .events > div > .text > h3 {
@@ -162,9 +156,9 @@ body {
 .events > div > .text > p {
   margin: 0px;
   font-size: 16px;
-  font-family: 'Montserrat-Regular';
 }
 .events > div > .text > button {
+  margin: 1rem 0px;
   padding: 0.25rem 0.5rem;
   background-color: #ffaf6f;
   border: 0px;
@@ -172,29 +166,24 @@ body {
   font-size: 16px;
   cursor: pointer;
   color: white;
-  font-family: 'Montserrat-Regular';
 }
 
 .contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding: 2rem 13rem 2rem 13rem;
 }
-.contact > h2 {
-  text-align: center;
-  font-size: 28px;
+.contact > h3 {
+  margin: 1.5rem 0px;
+  color: #ffaf6f;
   font-family: 'Montserrat-SemiBold';
-  text-transform: uppercase;
-  color: #ff933c;
+  font-size: 22px;
 }
-.contact > .separator {
-  align-self: center;
-  height: 8px;
-  width: 25%;
-  margin: 0px 0px 2rem 0px;
-  background-color: #ff933c;
+.contact > p {
+  margin: 0px;
+  font-size: 16px;
 }
 
 .footer {
@@ -206,9 +195,33 @@ body {
 }
 .footer > p {
   margin: 0px;
+  font-size: 12px;
+  color: white;
+}
+.footer > p > a {
   color: white;
 }
 .footer > a {
+  font-size: 12px;
   color: white;
   cursor: pointer;
+}
+.footer > a:hover {
+  text-decoration: underline;
+}
+
+.slug-description {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 2rem 13rem 2rem 13rem;
+}
+.slug-description > p {
+  margin: 0px;
+  font-size: 16px;
+  padding: 0px 3rem;
+}
+.slug-description > img {
+  width: 30vw;
+  height: auto;
 }

@@ -23,3 +23,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Inspiration
 
 https://www.my-loire-valley.com/forteresse-royale-chinon/
+
+https://www.my-loire-valley.com/2019/02/top-5-des-escape-games-dans-les-chateaux-de-la-loire/
+
+https://laliguedesgentlemen.com/reserver-votre-mission/
+
+https://laliguedesgentlemen.com/mission/operation-k-meleon/
+
+https://laliguedesgentlemen.com/mission/elite/
