@@ -114,10 +114,22 @@ body {
   width: 22vw;
   object-fit: cover;
 }
-.events > div > p {
+.events > div > .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px 3rem;
+}
+.events > div > .text > h3 {
   margin: 0px;
-  padding: 0px 2rem;
-  font-size: 16px;
+  margin-bottom: 1.5rem;
+  font-family: 'Montserrat-SemiBold';
+  font-size: 22px;
+}
+.events > div > .text > p {
+  margin: 0px;
+  font-size: 18px;
   font-family: 'Montserrat-Regular';
 }
 
