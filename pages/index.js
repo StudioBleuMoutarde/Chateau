@@ -55,7 +55,7 @@ const Home = () => {
             Tout le royaume de France cherche les coupables. Le principal suspect est en prison, sur le point d’être jugé, lorsque vous recevez une lettre mystérieuse du prince de Condé, qui soupçonne la comtesse de la Motte d’avoir commandité l’escroquerie. Fouillez la chambre des mystères pour trouver des preuves qui innocenteront le suspect. Une véritable course contre le temps s’engage, à vous de jouer !</p>
             
             <Link href="/enigme/chambre-des-mysteres">
-              <a>Home</a>
+              <a>Homeee</a>
             </Link>
 
             <button type="button" onClick={() => navigateToEscapeGame('chambre-des-mysteres')}>En savoir plus</button>
