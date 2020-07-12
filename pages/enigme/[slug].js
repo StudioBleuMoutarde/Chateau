@@ -7,14 +7,14 @@ const Enigma = () => {
   return (
     <div className="container">
       <section className="hero">
-        {router.query.slug === 'chambre-des-mysteres' ? (
+        {router?.query?.slug === 'chambre-des-mysteres' ? (
           <img src="https://images.unsplash.com/photo-1519074069444-1ba4fff66d16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80" />
         ) : (
           <img src="https://images.unsplash.com/photo-1463871181391-8550cd89c179?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" />
         )}
 
         <div>
-          {router.query.slug === 'chambre-des-mysteres' ? (
+          {router?.query?.slug === 'chambre-des-mysteres' ? (
             <p>La chambre des mystères au château de Suscinio</p>
           ) : (
             <p>Guet-apens royal au château de Suscinio</p>
@@ -22,7 +22,7 @@ const Enigma = () => {
         </div>
       </section>
 
-      {router.query.slug === 'chambre-des-mysteres' ? (
+      {router?.query?.slug === 'chambre-des-mysteres' ? (
         <section className="slug-description">
           <img src="https://images.unsplash.com/photo-1435265796918-0e3d3e4af435?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80" />
 
@@ -44,7 +44,7 @@ const Enigma = () => {
         <div className="separator"></div>
       </section>
 
-      {router.query.slug === 'chambre-des-mysteres' ? (
+      {router?.query?.slug === 'chambre-des-mysteres' ? (
         <section className="contact">
           <h3>Quand ?</h3>
           <p>Toute l'année</p>
