@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 const Enigma = () => {
   const router = useRouter();
