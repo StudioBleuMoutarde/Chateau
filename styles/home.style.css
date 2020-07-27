@@ -8,6 +8,32 @@ body {
   min-height: 100vh;
 }
 
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  background-color: white;
+  display: flex;
+  flex-direction: 'row';
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > img {
+  cursor: pointer;
+  padding-left: 2rem;
+  height: 60px;
+  width: 360px;
+}
+
+.header > p {
+  padding-right: 2rem;
+  color: #b93425;
+  font-weight: 700;
+}
+
 .hero {
   position: relative;
   display: flex;

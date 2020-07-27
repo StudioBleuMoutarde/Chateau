@@ -4,6 +4,14 @@ import Link from 'next/link';
 const MysteryRoom = () => {
   return (
     <div className="container">
+      <section className="header">
+        <Link  href="/">
+          <img src="https://mf-prod.com/suscinio/wp-content/uploads/sites/37/2020/03/logo-suscinio-noir-ok8.png" />
+        </Link>
+
+        <p>Le domaine de Suscinio : un château, des animations et une nature préservée</p>
+      </section>
+
       <section className="hero">
         <img src="https://images.unsplash.com/photo-1519074069444-1ba4fff66d16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80" />
 
