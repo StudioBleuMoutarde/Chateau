@@ -53,10 +53,6 @@ const Home = () => {
 
             <p>Enfermé dans une pièce secrète du château de Suscinio, partez à la chasse aux indices et résolvez les différentes énigmes pour vous échapper à temps de la chambre des mystères. Bon en arrière au XVIIIe siècle, à l’époque de la célèbre affaire du collier de la reine.
             Tout le royaume de France cherche les coupables. Le principal suspect est en prison, sur le point d’être jugé, lorsque vous recevez une lettre mystérieuse du prince de Condé, qui soupçonne la comtesse de la Motte d’avoir commandité l’escroquerie. Fouillez la chambre des mystères pour trouver des preuves qui innocenteront le suspect. Une véritable course contre le temps s’engage, à vous de jouer !</p>
-            
-            <Link href="/enigme/chambre-des-mysteres">
-              <a>Homeee</a>
-            </Link>
 
             <button type="button" onClick={() => navigateToEscapeGame('chambre-des-mysteres')}>En savoir plus</button>
           </div>
@@ -103,9 +99,9 @@ const Home = () => {
       <section className="footer">
         <p>© Copyright - Le domaine de Suscinio - Un site Internet réalisé par <a target="_blank" href="https://www.mediafactory.fr/">Mediafactory</a></p>
 
-        <a>Mentions légales</a>
-
-        <a>Politique de protection des données</a>
+        <Link href="/mentions-legales">
+          Mentions légales
+        </Link>
       </section>
     </div>
   )

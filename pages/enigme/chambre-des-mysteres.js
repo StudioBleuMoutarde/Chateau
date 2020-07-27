@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const MysteryRoom = () => {
   return (
@@ -44,9 +45,9 @@ const MysteryRoom = () => {
       <section className="footer">
         <p>© Copyright - Le domaine de Suscinio - Un site Internet réalisé par <a target="_blank" href="https://www.mediafactory.fr/">Mediafactory</a></p>
 
-        <a>Mentions légales</a>
-
-        <a>Politique de protection des données</a>
+        <Link href="/mentions-legales">
+          Mentions légales
+        </Link>
       </section>
     </div>
   )
